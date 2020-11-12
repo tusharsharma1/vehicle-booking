@@ -1,0 +1,56 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.vehicle-booking-form {
+    width: 50% !important;
+    margin: auto;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 5px #555;
+    -moz-box-shadow: 0px 0px 5px #555;
+    box-shadow: 0px 0px 5px #555;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.vehicle-booking-form .field-group {
+    margin-bottom: 20px;
+}
+.vehicle-booking-form label {
+    font-family: sans-serif;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="date"], input[type="month"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="week"], input[type="number"], input[type="search"], input[type="tel"], input[type="color"], textarea, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #fff;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.1rem;
+    box-shadow: none;
+    display: block;
+    font-size: 1.6rem;
+    letter-spacing: -0.015em;
+    margin: 0;
+    max-width: 100%;
+    padding: 1.5rem 1.8rem;
+    width: 100%;
+}
+
+.vehicle-booking-form option.disabled {
+    display: none;
+}
+input#submit_booking {
+    float: left;
+    margin-right: 20px;
+}
+.responseMessage {
+    display: inline-block;
+    margin-top: 15px;
+}
+.responseMessage span.success {
+	color: #008000;
+}
+.responseMessage span.error {
+	color: #FF0000;
+}
